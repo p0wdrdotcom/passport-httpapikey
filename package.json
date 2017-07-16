@@ -1,0 +1,21 @@
+{
+  "name": "passport-httpapikey",
+  "version": "1.0.0",
+  "description": "a passport strategy for http authorization with apikey",
+  "main": "index.js",
+  "repository": "https://github.com/p0wdrdotcom/passport-httpapikey.git",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint ."
+  },
+  "author": "Geoff McIver",
+  "license": "ISC",
+  "dependencies": {
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.2"
+  }
+}
